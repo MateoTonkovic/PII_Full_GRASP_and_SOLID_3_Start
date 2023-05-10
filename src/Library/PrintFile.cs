@@ -1,7 +1,7 @@
 using System.IO;
 
 
-public class FileStrategy : IPrinterStrategy
+public class FilePrinter : IPrinterStrategy
 {
     public void Print(string content)
     {
